@@ -213,8 +213,8 @@ export default {
         return <span
           class={ `${this.prefixCls}--level-${row._level}-cell` }
           style={{
-            marginLeft: `${(row._level - 1) * 24}px`,
-            paddingLeft: row._childrenLen === 0 ? '20px' : '',
+            marginLeft: `${(row._level - 1) * 12}px`,
+            paddingLeft: row._childrenLen === 0 ? '10px' : '',
           }}>
             { row._childrenLen > 0 &&
               <i
